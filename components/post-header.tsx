@@ -9,7 +9,7 @@ type Props = {
   author: Author
 }
 
-const PostHeader = ({ title, coverImage, date, author }: Props) => {
+const PostHeader = ({ title, coverImage, author }: Props) => {
   return (
     <>
       <PostTitle>{title}</PostTitle>
